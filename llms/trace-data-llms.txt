@@ -1,0 +1,16 @@
+# Trace Data
+
+> Trace Data (tracedata.io) was a San Francisco-area data-security startup founded by James Donelan that built a platform integrating data observability, privacy, and security — "Know where your data is. Every step of the way." — aimed at securing data as it moves across APIs, SaaS, and cloud. The company was backed by venture investors including Accel. Its website went offline after April 2021 and the tracedata.io DNS zone is now served by Netskope nameservers; the company no longer publishes a website, developer portal, or public API surface.
+
+Generated: 2026-07-21
+Method: generated (from the API Evangelist catalog profile and archived homepage; the provider publishes no llms.txt)
+Source: https://web.archive.org/web/20210421101044/https://www.tracedata.io/
+
+## Company
+
+- [Archived homepage (2021-04-21)](https://web.archive.org/web/20210421101044/https://www.tracedata.io/): Last known snapshot of www.tracedata.io describing the data-security platform and team
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/trace-data/refs/heads/main/apis.yml): API Evangelist network profile for Trace Data
+
+## APIs
+
+No public APIs are known for this provider. The website is offline and no developer portal, documentation, OpenAPI, SDKs, or package registry artifacts were found.

@@ -1,20 +1,41 @@
 aid: trace-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trace-data.png
 name: Trace Data
-description: 'Trace Data is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: big-data. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Trace Data (tracedata.io) was a data-security startup founded by James
+  Donelan that built a platform integrating data observability, privacy, and security
+  to track when and where company data is accessed as it moves across APIs, SaaS,
+  and cloud, backed by venture investors including Accel. The company appears defunct:
+  its website has been offline since after April 2021, and the tracedata.io DNS zone
+  is now served by Netskope nameservers. No public API, developer portal, documentation,
+  SDKs, or GitHub surface remains.'
 url: https://raw.githubusercontent.com/api-evangelist/trace-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Big Data
+- Data Security
+- Data Observability
+- Data Privacy
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +45,14 @@ maintainers:
 common:
 - type: Website
   url: http://www.tracedata.io
+- type: WebsiteArchive
+  url: https://web.archive.org/web/20210421101044/https://www.tracedata.io/
+- type: DomainSecurity
+  url: security/trace-data-domain-security.yml
+- type: LLMsTxt
+  url: llms/trace-data-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
